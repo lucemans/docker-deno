@@ -10,16 +10,11 @@ echo $deno_asset_path
 if [ ! "$deno_asset_path" ]; then exit 1; fi
 deno_uri="https://github.com${deno_asset_path}"
 
-deno_install="${DENO_INSTALL:-$HOME/.deno}"
-bin_dir="$deno_install/bin"
+deno_install="${DENO_INSTALL:/bin}"
 exe="$bin_dir/deno"
 
-if [ ! -d "$bin_dir" ]; then
-	mkdir -p "$bin_dir"
-fi
-
 wget -O "$exe.zip" "$deno_uri"
-cd "$bin_dir"
+cd "$deno_install"
 unzip -o "$exe.zip"
 chmod +x "$exe"
 rm "$exe.zip"
