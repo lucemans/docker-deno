@@ -23,3 +23,5 @@ wget -O "deno.zip" "$deno_uri"
 unzip -o "deno.zip"
 chmod +x "$exe"
 rm "deno.zip"
+
+ln -s $exe /bin/deno
