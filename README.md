@@ -2,10 +2,10 @@
 
 <br>
 
-Alpine Linux: lucemans/docker-deno:alpine (~62.8MB)
-Centos: lucemans/docker-deno:centos (not available)
-Debian: lucemans/docker-deno:debian (not available)
-Ubuntu: lucemans/docker-deno:ubuntu (not available)
+Alpine Linux: lucemans/docker-deno:alpine (~62.8MB)<br>
+Centos: lucemans/docker-deno:centos (not available)<br>
+Debian: lucemans/docker-deno:debian (not available)<br>
+Ubuntu: lucemans/docker-deno:ubuntu (not available)<br>
 
 ## Run the image
 
