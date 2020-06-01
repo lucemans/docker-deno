@@ -1,3 +1,5 @@
+<img src="icon.png" width="100%" />
+
 # deno-docker
 
 Deno Runtime in Docker, based on the frolvlad/alpine-glibc image in a mere 69.3MB
