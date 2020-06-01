@@ -1,4 +1,4 @@
-<img src="icon4.png" width="100%" />
+<img src="internals/icon4.png" width="100%" />
 
 <br>
 
