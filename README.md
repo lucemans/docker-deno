@@ -2,8 +2,10 @@
 
 <br>
 
-Deno Runtime in Docker, based on the frolvlad/alpine-glibc image in a mere 69.3MB
-Last Updated May 25th, 11:50 CEST + 2
+Alpine Linux: lucemans/docker-deno:alpine (~62.8MB)
+Centos: lucemans/docker-deno:centos (not available)
+Debian: lucemans/docker-deno:debian (not available)
+Ubuntu: lucemans/docker-deno:ubuntu (not available)
 
 ## Run the image
 
