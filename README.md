@@ -4,7 +4,7 @@
 
 ## Available Images
 
-Alpine Linux: [lucemans/docker-deno:alpine](https://hub.docker.com/r/lucemans/docker-deno/tags) (~62.8MB)<br>
+Alpine Linux: [lucemans/docker-deno:alpine](https://hub.docker.com/r/lucemans/docker-deno/tags) (~62.8MB / ~24.46MB)<br>
 Centos: [lucemans/docker-deno:centos](https://hub.docker.com/r/lucemans/docker-deno/tags) (not available)<br>
 Debian: [lucemans/docker-deno:debian](https://hub.docker.com/r/lucemans/docker-deno/tags) (not available)<br>
 Ubuntu: [lucemans/docker-deno:ubuntu](https://hub.docker.com/r/lucemans/docker-deno/tags) (not available)<br>
