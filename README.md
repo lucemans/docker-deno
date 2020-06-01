@@ -1,4 +1,4 @@
-<img src="icon2.png" width="100%" />
+<img src="icon3.png" width="100%" />
 
 # deno-docker
 
