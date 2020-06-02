@@ -17,7 +17,7 @@ To run the image using docker execute the following command:
 docker run lucemans/docker-deno:latest
 ```
 
-## Use in your app
+## Use in your app / Examples
 
 To use this image for your own project see the following example Dockerfile
 
@@ -28,6 +28,13 @@ COPY *.ts ./
 
 CMD ["deno", "run", "index.ts"]
 ```
+
+## Possible Optimization (SECURITY WARNING)
+Due to the nature of docker images it is completely possible to mount certain volumes to certain directories.<br>
+This means that in theory you could have multiple deno-based docker images sharing the same .cache directory.<br>
+Although this sincerely speeds up the boot-time of your applications, WE STRONGLY ADVISE AGAINST IT.<br>
+Seeing as it would allow for a serious security flaw and injection of certain modules.<br>
+Regardless, if you do plan on pursueing this strategy, it will be AT YOUR OWN RISK.<br>
 
 ## Maintainers
 - [Lucemans](https://github.com/lucemans)
