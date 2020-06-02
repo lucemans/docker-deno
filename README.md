@@ -29,7 +29,7 @@ COPY *.ts ./
 CMD ["deno", "run", "index.ts"]
 ```
 
-## Possible Optimization (SECURITY WARNING)
+## Possible Optimization
 Due to the nature of docker images it is completely possible to mount certain volumes to certain directories.<br>
 This means that in theory you could have multiple deno-based docker images sharing the same .cache directory.<br>
 Although this sincerely speeds up the boot-time of your applications, WE STRONGLY ADVISE AGAINST IT.<br>
