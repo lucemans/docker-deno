@@ -35,6 +35,11 @@ This means that in theory you could have multiple deno-based docker images shari
 Although this sincerely speeds up the boot-time of your applications, WE STRONGLY ADVISE AGAINST IT.<br>
 Seeing as it would allow for a serious security flaw and injection of certain modules.<br>
 Regardless, if you do plan on pursueing this strategy, it will be AT YOUR OWN RISK.<br>
+<br>
+An example of how this could be done is using the following code.
+```bash
+docker run -v <local_directory>:/root/.cache/deno <image>:<tag>
+```
 
 ## Maintainers
 - [Lucemans](https://github.com/lucemans)
